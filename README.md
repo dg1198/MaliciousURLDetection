@@ -20,18 +20,12 @@ Malicious URL Detection is a Flask web application that identifies potentially h
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/MaliciousURLDetection.git
-   cd MaliciousURLDetection
-   ```
-
-2. Install the required packages:
+1. Install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Download the following model files and dataset, and place them in the project directory:
+2. Download the following model files and dataset, and place them in the project directory:
    - `malicious_url_model.pkl`: The trained machine learning model.
    - `model.pkl`: A backup of the model.
    - `malicious_phish.csv`: The dataset containing over 600,000 URLs and their classifications (malicious or benign).
